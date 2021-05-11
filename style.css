@@ -1,0 +1,69 @@
+/*
+main #principal p{
+    position: relative;
+    margin: 0;
+    font-size: 4em;
+    font-weight: 900;
+    color: cornsilk;
+    z-index: 1;
+    overflow: hidden;
+}
+main #principal p ::before{
+    content: '';
+    position: absolute;
+    left: 110;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+    animation: animat 5.5s linear forwards;
+}
+@keyframes animat {
+    0%{
+        left: 110%;
+    }
+    100%{
+        left: -20%;
+    }
+}
+
+
+main h1{
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+}
+main #herramientas i:hover{
+    font-size: 100px;
+    color: #fff;
+    filter: drop-shadow (0 0 5px #03e9f4);
+    filter: drop-shadow(0 0 25px #03e9f4);
+    filter: drop-shadow(0 0 50px #03e9f4);
+    filter: drop-shadow(0 0 200px #03e9f4);
+}
+*/
+main #principal #nombre{
+    font-size: 70px;
+}
+main #principal #nombre span{
+    font-size: 100%;
+    animation: magia 3s;
+}
+@keyframes magia {
+    from{
+        font-size: 0%;
+    }
+    to{
+        font-size: 100%;
+    }
+}
+main #herramientas i{
+    font-size: 100px;
+} 
+main #herramientas i:hover{
+    color: #ec6231;
+    text-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+}
